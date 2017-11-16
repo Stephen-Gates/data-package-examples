@@ -36,4 +36,5 @@ On your computer:
 
 ## Add Goodtables.io validation
 
-- to do
+- All data in this repo is: [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/data-package-examples.svg)](https://goodtables.io/github/Stephen-Gates/data-package-examples)
+- It would be nice to have [individual badges for each data package](https://github.com/Stephen-Gates/data-package-examples/issues/1)
