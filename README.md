@@ -28,9 +28,9 @@ Each data package:
 
 On your computer:
 
-- create a data package using Data Curator
+- create a data package using Data Curator (it's best if the datapackage `name` is unique across this repository)
 - use the `Export Data Package` command to create a `datapackage.zip`
-- rename `datapackage.zip` to my-data-package-name.zip
+- rename `datapackage.zip` to *my-data-package-name*.zip
 - unzip the files
 - add all the files to this repository
 
@@ -38,3 +38,19 @@ On your computer:
 
 - All data in this repo is: [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/data-package-examples.svg)](https://goodtables.io/github/Stephen-Gates/data-package-examples)
 - It would be nice to have [individual badges for each data package](https://github.com/Stephen-Gates/data-package-examples/issues/1)
+
+## View a data package
+
+Go to [Data Package Viewer](http://data.okfn.org/tools/view) and enter the url of one of the `datapackage.json` files, e.g.
+
+http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fdata-package-examples%2Fmaster%2Fone-csv-file%2Fdatapackage.json
+
+## Publish a data package to datahub.io
+
+- Use [data-desktop](https://github.com/datahq/data-desktop/releases) to install [datahub-cli](https://github.com/datahq/datahub-cli)
+- use the following commands to privately publish to [datahub.io](http://datahub.io) ([docs](http://datahub.io/docs), [blog](http://datahub.io/blog))
+
+```
+$ cd my-data-package-directory
+$ data push
+```
