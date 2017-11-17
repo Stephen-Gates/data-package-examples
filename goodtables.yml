@@ -6,16 +6,16 @@
 # files:
 #  - source: australian-open-data-portals/australian-open-data-portals.csv
 #    schema: australian-open-data-portals/datapackage.json
-#  - source: 'one-csv-file/data/product_inventory.csv'
-#    schema: 'one-csv-file/datapackage.json'
-#  - source: 'one-csv-geopoint-array/data/office-locations.csv'
-#    schema: 'one-csv-geopoint-array/datapackage.json'
-#  - source: 'one-csv-geopoint-default/data/office-locations.csv'
-#    schema: 'one-csv-geopoint-default/datapackage.json'
-#  - source: 'one-tsv-file/data/australian-open-data-portals.tsv'
-#    schema: 'one-tsv-file/datapackage.json'
-#   - source: 'pathway/all_organisations_by_country.csv'
+#  - source: one-csv-file/data/product_inventory.csv
+#    schema: one-csv-file/datapackage.json
+#  - source: one-csv-geopoint-array/data/office-locations.csv
+#    schema: one-csv-geopoint-array/datapackage.json
+#  - source: one-csv-geopoint-default/data/office-locations.csv
+#    schema: one-csv-geopoint-default/datapackage.json
+#  - source: one-tsv-file/data/australian-open-data-portals.tsv
+#    schema: one-tsv-file/datapackage.json
+#   - source: pathway/all_organisations_by_country.csv
 
 # validate one datapackage that references a csv file
 datapackages:
-  - schema: 'australian-open-data-portals/datapackage.json'
+  - schema: australian-open-data-portals/datapackage.json
