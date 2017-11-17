@@ -35,7 +35,7 @@
     {
       "profile": "tabular-data-resource",
       "name": "australian-open-data-portals",
-      "path": "data/australian-open-data-portals.csv",
+      "path": "australian-open-data-portals.csv",
       "title": "Australian Open Data Portals",
       "format": "csv",
       "mediatype": "text/csv",
