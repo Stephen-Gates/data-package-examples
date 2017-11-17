@@ -1,11 +1,12 @@
 # .goodtables.yml should conform to the format at https://github.com/frictionlessdata/goodtables.io/blob/master/goodtablesio/schemas/job-conf.yml
 
-files: '*.csv'
+# validate all csv files with reference to the datapackages
+# files: '*.csv'
 
-# files:
-#  -
-#    source: 'australian-open-data-portals/australian-open-data-portals.csv'
-#    schema: 'australian-open-data-portals/datapackage.json'#
+files:
+  -
+  source: 'australian-open-data-portals/australian-open-data-portals.csv'
+  schema: 'australian-open-data-portals/datapackage.json'
 #  -
 #    source: 'one-csv-file/data/product_inventory.csv'
 #    schema: 'one-csv-file/datapackage.json'
@@ -21,5 +22,7 @@ files: '*.csv'
 #  -
 #    source: 'pathway/all_organisations_by_country.csv'
 
-#datapackages:
-#  -
+# validate one datapackage
+# datapackages:
+#   -
+#    schema: 'australian-open-data-portals/datapackage.json'
