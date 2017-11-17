@@ -4,9 +4,8 @@
 # files: '*.csv'
 
 files:
-  -
-  source: australian-open-data-portals/australian-open-data-portals.csv
-  schema: australian-open-data-portals/datapackage.json
+  - source: australian-open-data-portals/australian-open-data-portals.csv
+    schema: australian-open-data-portals/datapackage.json
 #  -
 #    source: 'one-csv-file/data/product_inventory.csv'
 #    schema: 'one-csv-file/datapackage.json'
