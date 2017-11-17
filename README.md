@@ -38,7 +38,7 @@ On your computer:
 
 - All data in this repo is: [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/data-package-examples.svg)](https://goodtables.io/github/Stephen-Gates/data-package-examples)
 - the validation performed is controlled by [goodtables.yml](https://github.com/frictionlessdata/goodtables.io/wiki#goodtablesyml)
-- It would be nice to have [individual badges for each data package](https://github.com/Stephen-Gates/data-package-examples/issues/1)
+- It would be nice to have [individual badges for each data package](https://github.com/Stephen-Gates/data-package-examples/issues/1) but if the data is not valid you can [get details of the errors at goodtables.io](https://goodtables.io/github/Stephen-Gates/data-package-examples)
 
 ## View a data package
 
