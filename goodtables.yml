@@ -4,18 +4,11 @@
 #
 # files: '*.csv'
 
-# validate a mixture of csv files optionally with a datapackage
+# validate a mixture of csv files optionally with a tableschema
 #
 files:
   - source: australian-open-data-portals/australian-open-data-portals.csv
-    schema: australian-open-data-portals/datapackage.json
-#  - source: one-csv-file/data/product_inventory.csv
-#    schema: one-csv-file/datapackage.json
-#  - source: one-csv-geopoint-array/data/office-locations.csv
-#    schema: one-csv-geopoint-array/datapackage.json
-#  - source: one-csv-geopoint-default/data/office-locations.csv
-#    schema: one-csv-geopoint-default/datapackage.json
-#    schema: one-tsv-file/datapackage.json
+    schema: australian-open-data-portals/tableschema.json
 #  - source: pathway/all_organisations_by_country.csv
 
 # validate datapackages that reference csv files
