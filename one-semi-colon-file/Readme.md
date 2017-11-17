@@ -1,0 +1,1 @@
+Created by a development version of Data Curator based on 0.5.1 with a fix for licenses properties
