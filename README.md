@@ -17,12 +17,12 @@ my-data-package-directory
 
 ```
 
-Each data package:
+Data packages:
 
-- was originally produced by [Data Curator](https://github.com/ODIQueensland/data-curator)
+- were originally produced by [Data Curator](https://github.com/ODIQueensland/data-curator) unless noted in the `README.md` for that data package
 - may have been hand-edited if Data Curator produced incorrect result. The difference between the original and hand-edited version will help improve Data Curator
-- follows the [Frictionless Data](http://frictionlessdata.io) [specification](http://frictionlessdata.io/specs/)
-- will be automatically validated by [Goodtables.io](http://goodtables.io)
+- follow the [Frictionless Data](http://frictionlessdata.io) [specification](http://frictionlessdata.io/specs/)
+- are automatically validated by [Goodtables.io](http://goodtables.io)
 
 ## Adding a datapackage
 
@@ -42,14 +42,13 @@ On your computer:
 
 ## View a data package
 
-Go to [Data Package Viewer](http://data.okfn.org/tools/view) and enter the url of one of the `datapackage.json` files, e.g.
-
-http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fdata-package-examples%2Fmaster%2Fone-csv-file%2Fdatapackage.json
+- Go to [Data Package Viewer](http://data.okfn.org/tools/view) and enter the url of one of the `datapackage.json` files
+- here's [an example](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fdata-package-examples%2Fmaster%2Faustralian-open-data-portals%2Fdatapackage.json)
 
 ## Publish a data package to datahub.io
 
 - Use [data-desktop](https://github.com/datahq/data-desktop/releases) to install [datahub-cli](https://github.com/datahq/datahub-cli)
-- use the following commands to privately publish to [datahub.io](http://datahub.io) ([docs](http://datahub.io/docs), [blog](http://datahub.io/blog))
+- use the following commands to publish to [datahub.io](http://datahub.io) ([docs](http://datahub.io/docs), [blog](http://datahub.io/blog))
 
 ```
 $ cd my-data-package-directory
