@@ -16,6 +16,10 @@
 #    schema: one-tsv-file/datapackage.json
 #  - source: pathway/all_organisations_by_country.csv
 
-# validate one datapackage that references a csv file
+# validate datapackages that reference csv files
 datapackages:
   - australian-open-data-portals/datapackage.json
+  - one-csv-file/datapackage.json
+  - one-csv-geopoint-array/datapackage.json
+  - one-csv-geopoint-default/datapackage.json
+  - one-tsv-file/datapackage.json
