@@ -6,16 +6,16 @@
 
 # validate a mixture of csv files optionally with a tableschema
 #
-files:
-  - source: australian-open-data-portals/australian-open-data-portals.csv
-    schema: australian-open-data-portals/tableschema.json
+# files:
+#  - source: australian-open-data-portals/australian-open-data-portals.csv
+#    schema: australian-open-data-portals/tableschema.json
 #  - source: pathway/all_organisations_by_country.csv
 
 # validate datapackages that reference csv files
 #
-# datapackages:
-#  - australian-open-data-portals/datapackage.json
-#  - one-csv-file/datapackage.json
-#  - one-csv-geopoint-array/datapackage.json
-#  - one-csv-geopoint-default/datapackage.json
-#  - one-tsv-file/datapackage.json
+datapackages:
+  - australian-open-data-portals/datapackage.json
+  - one-csv-file/datapackage.json
+  - one-csv-geopoint-array/datapackage.json
+  - one-csv-geopoint-default/datapackage.json
+  - one-tsv-file/datapackage.json
