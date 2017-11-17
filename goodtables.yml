@@ -3,7 +3,7 @@
 # validate all csv files with reference to the datapackages
 # files: '*.csv'
 
-files:
+# files:
 #  - source: australian-open-data-portals/australian-open-data-portals.csv
 #    schema: australian-open-data-portals/datapackage.json
 #  - source: 'one-csv-file/data/product_inventory.csv'
@@ -14,7 +14,7 @@ files:
 #    schema: 'one-csv-geopoint-default/datapackage.json'
 #  - source: 'one-tsv-file/data/australian-open-data-portals.tsv'
 #    schema: 'one-tsv-file/datapackage.json'
-  - source: 'pathway/all_organisations_by_country.csv'
+#   - source: 'pathway/all_organisations_by_country.csv'
 
 # validate one datapackage that references a csv file
 datapackages:
