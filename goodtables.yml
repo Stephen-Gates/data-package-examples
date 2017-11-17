@@ -1,0 +1,20 @@
+# .goodtables.yml
+
+files:
+  -
+    path: 'australian-open-data-portals/australian-open-data-portals.csv'
+    schema: 'australian-open-data-portals/datapackage.json'
+  -
+    path: 'one-csv-file/data/product_inventory.csv'
+    schema: 'one-csv-file/datapackage.json'
+  -
+    path: 'one-csv-geopoint-array/data/office-locations.csv'
+    schema: 'one-csv-geopoint-array/datapackage.json'
+  -
+    path: 'one-csv-geopoint-default/data/office-locations.csv'
+    schema: 'one-csv-geopoint-default/datapackage.json'
+  -
+    path: 'one-tsv-file/data/australian-open-data-portals.tsv'
+    schema: 'one-tsv-file/datapackage.json'
+  -
+    path: 'pathway/all_organisations_by_country.csv'
