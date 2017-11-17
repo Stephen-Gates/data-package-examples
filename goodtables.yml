@@ -1,20 +1,25 @@
-# .goodtables.yml
+# .goodtables.yml should conform to the format at https://github.com/frictionlessdata/goodtables.io/blob/master/goodtablesio/schemas/job-conf.yml
 
-files:
-  -
-    path: 'australian-open-data-portals/australian-open-data-portals.csv'
-    schema: 'australian-open-data-portals/datapackage.json'
-  -
-    path: 'one-csv-file/data/product_inventory.csv'
-    schema: 'one-csv-file/datapackage.json'
-  -
-    path: 'one-csv-geopoint-array/data/office-locations.csv'
-    schema: 'one-csv-geopoint-array/datapackage.json'
-  -
-    path: 'one-csv-geopoint-default/data/office-locations.csv'
-    schema: 'one-csv-geopoint-default/datapackage.json'
-  -
-    path: 'one-tsv-file/data/australian-open-data-portals.tsv'
-    schema: 'one-tsv-file/datapackage.json'
-  -
-    path: 'pathway/all_organisations_by_country.csv'
+files: '*.csv'
+
+# files:
+#  -
+#    source: 'australian-open-data-portals/australian-open-data-portals.csv'
+#    schema: 'australian-open-data-portals/datapackage.json'#
+#  -
+#    source: 'one-csv-file/data/product_inventory.csv'
+#    schema: 'one-csv-file/datapackage.json'
+#  -
+#    source: 'one-csv-geopoint-array/data/office-locations.csv'
+#    schema: 'one-csv-geopoint-array/datapackage.json'
+#  -
+#    source: 'one-csv-geopoint-default/data/office-locations.csv'
+#    schema: 'one-csv-geopoint-default/datapackage.json'
+#  -
+#    source: 'one-tsv-file/data/australian-open-data-portals.tsv'
+#    schema: 'one-tsv-file/datapackage.json'
+#  -
+#    source: 'pathway/all_organisations_by_country.csv'
+
+#datapackages:
+#  -
