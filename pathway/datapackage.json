@@ -1,6 +1,6 @@
 {
-  "name": "all-organisations-by-country",
   "profile": "tabular-data-package",
+  "name": "all-organisations-by-country",
   "licenses": [
     {
       "name": "CC-BY-SA-4.0",
@@ -10,18 +10,11 @@
   ],
   "resources": [
     {
-      "name": "all-organisations-by-country",
       "profile": "tabular-data-resource",
+      "name": "all-organisations-by-country",
       "path": "all_organisations_by_country.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "licenses": [
-        {
-          "name": "CC-BY-SA-4.0",
-          "title": "Creative Commons Attribution Share-Alike 4.0",
-          "path": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
       "schema": {
         "fields": [
           {

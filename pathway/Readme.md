@@ -1,3 +1,3 @@
-Created with Data Curator 0.5.1
+Manually created data package
 
-Manually added data package view
+View on [DataPackage Viewer](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2FStephen-Gates%2Fdata-package-examples%2Fmaster%2Fpathway%2Fdatapackage.json)
