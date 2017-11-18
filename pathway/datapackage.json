@@ -15,7 +15,6 @@
       "path": "data/all_organisations_by_country.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8",
       "licenses": [
         {
           "name": "CC-BY-SA-4.0",
