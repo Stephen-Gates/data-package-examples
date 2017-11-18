@@ -1,99 +1,116 @@
 {
+  "name": "all-organisations-by-country",
   "profile": "tabular-data-package",
-  "resources": [{
-    "profile": "tabular-data-resource",
-    "encoding": "utf-8",
-    "schema": {
-      "fields": [{
-        "name": "Country",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-          "required": true
-        }
-      }, {
-        "name": "Theme",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-          "required": true
-        }
-      }, {
-        "name": "Activity",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-          "required": true
-        }
-      }, {
-        "name": "1-Initial",
-        "type": "integer",
-        "format": "default",
-        "constraints": {}
-      }, {
-        "name": "2-Repeatable",
-        "type": "integer",
-        "format": "default"
-      }, {
-        "name": "3-Defined",
-        "type": "integer",
-        "format": "default"
-      }, {
-        "name": "4-Managed",
-        "type": "integer",
-        "format": "default"
-      }, {
-        "name": "5-Optimising",
-        "type": "integer",
-        "format": "default"
-      }, {
-        "name": "Completed",
-        "type": "integer",
-        "format": "default"
-      }, {
-        "name": "Organisations",
-        "type": "integer",
-        "format": "default"
-      }],
-      "missingValues": [""]
-    },
-    "format": "csv",
-    "mediatype": "text/csv",
-    "licenses": [{
-      "id": "CC-BY-SA-4.0",
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
       "title": "Creative Commons Attribution Share-Alike 4.0",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-    }],
-    "sources": [{
-      "title": "",
-      "path": "",
-      "email": ""
-    }],
-    "name": "all-organisations-by-country",
-    "path": "data/all_organisations_by_country.csv"
-  }],
-"views": [
-  {
-  	"name": "graph-1",
-  	"title": "My Chart Title",
-  	"resources": ["all-organisations-by-country"],
-  	"specType": "simple",
-  	"spec": {
-  		"type": "line",
-  		"group": "Country",
-  		"series": [ "1-Initial", "2-Repeatable", "3-Defined", "4-Managed", "5-Optimising"]
-  	}
-  }
-],
-  "licenses": [{
-    "id": "CC-BY-SA-4.0",
-    "title": "Creative Commons Attribution Share-Alike 4.0",
-    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-  }],
-  "sources": [{
-    "title": "",
-    "path": "",
-    "email": ""
-  }],
-  "name": "all-organisations-by-country"
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "all-organisations-by-country",
+      "profile": "tabular-data-resource",
+      "path": "data/all_organisations_by_country.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-SA-4.0",
+          "title": "Creative Commons Attribution Share-Alike 4.0",
+          "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "Theme",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "Activity",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "1-Initial",
+            "type": "integer",
+            "format": "default",
+            "constraints": {}
+          },
+          {
+            "name": "2-Repeatable",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3-Defined",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4-Managed",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "5-Optimising",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Completed",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Organisations",
+            "type": "integer",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "graph-1",
+      "title": "My Chart Title",
+      "resources": [
+        "all-organisations-by-country"
+      ],
+      "specType": "simple",
+      "spec": {
+        "type": "line",
+        "group": "Country",
+        "series": [
+          "1-Initial",
+          "2-Repeatable",
+          "3-Defined",
+          "4-Managed",
+          "5-Optimising"
+        ]
+      }
+    }
+  ]
 }
