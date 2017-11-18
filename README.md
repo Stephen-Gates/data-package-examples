@@ -24,21 +24,23 @@ Data packages:
 - follow the [Frictionless Data](http://frictionlessdata.io) [specification](http://frictionlessdata.io/specs/)
 - are automatically validated by [Goodtables.io](http://goodtables.io)
 
-## Adding a datapackage
+## Adding a data package
 
 On your computer:
 
-- create a data package using Data Curator (it's best if the datapackage `name` is unique across this repository)
+- create a data package using Data Curator (it's best if the data package `name` is unique across this repository)
 - use the `Export Data Package` command to create a `datapackage.zip`
 - rename `datapackage.zip` to *my-data-package-name*.zip
 - unzip the files
 - add all the files to this repository
+- update goodtables.yml to include the data package in the automatic validation
 
 ## Add Goodtables.io validation
 
 - Collectively the data packages in this repository are: [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/data-package-examples.svg)](https://goodtables.io/github/Stephen-Gates/data-package-examples)
+- If the data is not valid, [get details of the errors at goodtables.io](https://goodtables.io/github/Stephen-Gates/data-package-examples)
 - the validation performed is controlled by [goodtables.yml](https://github.com/Stephen-Gates/data-package-examples/blob/master/goodtables.yml)
-- It would be nice to have [individual badges for each data package](https://github.com/Stephen-Gates/data-package-examples/issues/1) but if the data is not valid you can [get details of the errors at goodtables.io](https://goodtables.io/github/Stephen-Gates/data-package-examples)
+- It would be nice to have [individual badges for each data package](https://github.com/Stephen-Gates/data-package-examples/issues/1)
 
 ## View a data package
 

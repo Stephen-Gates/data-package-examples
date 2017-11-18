@@ -64,6 +64,7 @@
           },
           {
             "name": "Organisation type",
+            "description": "A classifcation for types of Organisations",
             "type": "string",
             "format": "default"
           },
@@ -92,6 +93,7 @@
           {
             "name": "Lat",
             "title": "Latitude",
+            "description": "Latitude",
             "type": "number",
             "format": "default",
             "constraints": {
@@ -102,6 +104,7 @@
           {
             "name": "Lon",
             "title": "Longitude",
+            "description": "Longitude",
             "type": "number",
             "format": "default",
             "constraints": {
