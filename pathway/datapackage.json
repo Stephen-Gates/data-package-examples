@@ -12,7 +12,7 @@
     {
       "name": "all-organisations-by-country",
       "profile": "tabular-data-resource",
-      "path": "data/all_organisations_by_country.csv",
+      "path": "all_organisations_by_country.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "licenses": [
@@ -87,27 +87,6 @@
         ],
         "missingValues": [
           ""
-        ]
-      }
-    }
-  ],
-  "views": [
-    {
-      "name": "graph-1",
-      "title": "My Chart Title",
-      "resources": [
-        "all-organisations-by-country"
-      ],
-      "specType": "simple",
-      "spec": {
-        "type": "line",
-        "group": "Country",
-        "series": [
-          "1-Initial",
-          "2-Repeatable",
-          "3-Defined",
-          "4-Managed",
-          "5-Optimising"
         ]
       }
     }
