@@ -18,5 +18,6 @@ datapackages:
   - one-csv-file/datapackage.json
   - one-csv-geopoint-array/datapackage.json
   - one-csv-geopoint-default/datapackage.json
+  - one-csv-geopoint-object/datapackage.json
   - one-semi-colon-file/datapackage.json
   - one-tsv-file/datapackage.json
