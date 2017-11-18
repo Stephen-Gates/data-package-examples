@@ -14,10 +14,10 @@
 # validate datapackages that reference csv files
 #
 datapackages:
-  - australian-open-data-portals/datapackage.json
-  - one-csv-file/datapackage.json
-  - one-csv-geopoint-array/datapackage.json
-  - one-csv-geopoint-default/datapackage.json
+#  - australian-open-data-portals/datapackage.json
+#  - one-csv-file/datapackage.json
+#  - one-csv-geopoint-array/datapackage.json
+#  - one-csv-geopoint-default/datapackage.json
   - one-csv-geopoint-object/datapackage.json
-  - one-semi-colon-file/datapackage.json
-  - one-tsv-file/datapackage.json
+#  - one-semi-colon-file/datapackage.json
+#  - one-tsv-file/datapackage.json
