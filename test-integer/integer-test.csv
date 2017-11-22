@@ -1,3 +1,4 @@
+integer,required,unique,minimum,maximum,enum
 -99,1,1,-1,-1,-1
 0,2,1,0,0,0
 99,3,2,1,1,1
