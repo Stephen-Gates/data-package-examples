@@ -37,7 +37,7 @@
         "type": "boolean",
         "format": "default",
         "constraints": {
-          "enum": ["P12Y","P13Y"]
+          "enum": ["Y","n"]
         }
       }],
       "missingValues": [""]
