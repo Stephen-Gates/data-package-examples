@@ -37,21 +37,21 @@
         "type": "yearmonth",
         "format": "default",
         "constraints": {
-          "minimum": "1999-12"
+          "minimum": "1901-01"
         }
       }, {
         "name": "maximum",
         "type": "yearmonth",
         "format": "default",
         "constraints": {
-          "maximum": "2000-01"
+          "maximum": "1901-02"
         }
       }, {
         "name": "enum",
         "type": "yearmonth",
         "format": "default",
         "constraints": {
-          "enum": ["1900-12","1910-11","1919-03","1920-09"]
+          "enum": ["1901-01","1901-02","1901-03","1901-04"]
         }
       }],
       "missingValues": [""]
