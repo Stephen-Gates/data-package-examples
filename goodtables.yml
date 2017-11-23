@@ -28,3 +28,4 @@ datapackages:
 #  - test-duration/datapackage.json
 #  - test-boolean/datapackage.json
   - test-number/datapackage.json
+  - test-year/datapackage.json

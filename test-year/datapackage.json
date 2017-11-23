@@ -1,0 +1,60 @@
+{
+  "name": "year-test",
+  "profile": "tabular-data-package",
+  "resources": [{
+    "name": "year-test",
+    "profile": "tabular-data-resource",
+    "path": "year-test.csv",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "year",
+        "type": "year",
+        "format": "default"
+      }, {
+        "name": "required",
+        "type": "year",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "unique",
+        "type": "year",
+        "format": "default",
+        "constraints": {
+          "unique": true
+        }
+      }, {
+        "name": "minimum",
+        "type": "year",
+        "format": "default",
+        "constraints": {
+          "minimum": "1999"
+        }
+      }, {
+        "name": "maximum",
+        "type": "year",
+        "format": "default",
+        "constraints": {
+          "maximum": "2000"
+        }
+      }, {
+        "name": "enum",
+        "type": "year",
+        "format": "default",
+        "constraints": {
+          "enum": ["1900","1910","1919","1920"]
+        }
+      }],
+      "missingValues": [""]
+    }
+  }]
+}
