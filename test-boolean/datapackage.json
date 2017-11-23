@@ -37,7 +37,7 @@
         "type": "boolean",
         "format": "default",
         "constraints": {
-          "enum": ["Y","n"]
+          "enum": ["TRUE","false"]
         }
       }],
       "missingValues": [""]
