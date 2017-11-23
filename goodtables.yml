@@ -26,4 +26,5 @@ datapackages:
 #  - pathway/datapackage.json
 #  - test-integer/datapackage.json
 #  - test-duration/datapackage.json
-  - test-boolean/datapackage.json
+#  - test-boolean/datapackage.json
+  - test-number/datapackage.json
