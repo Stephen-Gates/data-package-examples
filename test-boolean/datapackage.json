@@ -17,7 +17,9 @@
       "fields": [{
         "name": "boolean",
         "type": "boolean",
-        "format": "default"
+        "format": "default",
+        "trueValues": [ "true", "True", "TRUE", "1", "Y" ],
+        "falseValues": [ "false", "False", "FALSE", "0", "N" ]
       }, {
         "name": "required",
         "type": "boolean",
