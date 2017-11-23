@@ -1,0 +1,46 @@
+{
+  "name": "duration-test",
+  "profile": "tabular-data-package",
+  "resources": [{
+    "name": "duration-test",
+    "profile": "tabular-data-resource",
+    "path": "duration-test.csv",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "duration",
+        "type": "duration",
+        "format": "default"
+      }, {
+        "name": "required",
+        "type": "duration",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "unique",
+        "type": "duration",
+        "format": "default",
+        "constraints": {
+          "unique": true
+        }
+      }, {
+        "name": "enum",
+        "type": "duration",
+        "format": "default",
+        "constraints": {
+          "enum": ["P12Y","P13Y"]
+        }
+      }],
+      "missingValues": [""]
+    }
+  }]
+}

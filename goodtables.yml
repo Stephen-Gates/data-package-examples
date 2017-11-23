@@ -24,4 +24,5 @@ datapackages:
 #  - one-semi-colon-file/datapackage.json
 #  - one-tsv-file/datapackage.json
 #  - pathway/datapackage.json
-  - test-integer/datapackage.json
+#  - test-integer/datapackage.json
+  - test-duration/datapackage.json
