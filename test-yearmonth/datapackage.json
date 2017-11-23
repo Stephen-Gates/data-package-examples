@@ -1,0 +1,60 @@
+{
+  "name": "yearmonth-test",
+  "profile": "tabular-data-package",
+  "resources": [{
+    "name": "yearmonth-test",
+    "profile": "tabular-data-resource",
+    "path": "yearmonth-test.csv",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "yearmonth",
+        "type": "yearmonth",
+        "format": "default"
+      }, {
+        "name": "required",
+        "type": "yearmonth",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "unique",
+        "type": "yearmonth",
+        "format": "default",
+        "constraints": {
+          "unique": true
+        }
+      }, {
+        "name": "minimum",
+        "type": "yearmonth",
+        "format": "default",
+        "constraints": {
+          "minimum": "1999-12"
+        }
+      }, {
+        "name": "maximum",
+        "type": "yearmonth",
+        "format": "default",
+        "constraints": {
+          "maximum": "2000-01"
+        }
+      }, {
+        "name": "enum",
+        "type": "yearmonth",
+        "format": "default",
+        "constraints": {
+          "enum": ["1900-12","1910-11","1919-03","1920-09"]
+        }
+      }],
+      "missingValues": [""]
+    }
+  }]
+}
