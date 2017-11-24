@@ -21,7 +21,7 @@
       }, {
         "name": "date-any",
         "type": "date",
-        "format": "default"
+        "format": "any"
       }, {
         "name": "date-pattern",
         "type": "date",

@@ -21,7 +21,7 @@
       }, {
         "name": "time-any",
         "type": "time",
-        "format": "default"
+        "format": "any"
       }, {
         "name": "time-pattern",
         "type": "time",
