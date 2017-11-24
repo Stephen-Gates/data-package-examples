@@ -1,0 +1,67 @@
+{
+  "name": "string-test",
+  "profile": "tabular-data-package",
+  "resources": [{
+    "name": "string-test",
+    "profile": "tabular-data-resource",
+    "path": "string-test.csv",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "schema": {
+      "fields": [{
+        "name": "string",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "required",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "unique",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "unique": true
+        }
+      }, {
+        "name": "minLength",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "minimum": "2"
+        }
+      }, {
+        "name": "maxLength",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "maximum": "10"
+        }
+      }, {
+        "name": "pattern",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "pattern": "^A.*Z$"
+        }
+      }, {
+        "name": "enum",
+        "type": "string",
+        "format": "default",
+        "constraints": {
+          "enum": ["1900","1910","1919","1920"]
+        }
+      }],
+      "missingValues": [""]
+    }
+  }]
+}
