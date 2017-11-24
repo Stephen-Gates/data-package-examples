@@ -1,16 +1,16 @@
 string,email,uri,binary,uuid,required,unique,minLength,maxLength,pattern,enum
-a string,me@example.com,example.com,TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieSB0aGlz
-IHNpbmd1bGFyIHBhc3Npb24gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBhIGx1c3Qgb2Yg
-dGhlIG1pbmQsIHRoYXQgYnkgYSBwZXJzZXZlcmFuY2Ugb2YgZGVsaWdodCBpbiB0aGUgY29udGlu
-dWVkIGFuZCBpbmRlZmF0aWdhYmxlIGdlbmVyYXRpb24gb2Yga25vd2xlZGdlLCBleGNlZWRzIHRo
-ZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=,123e4567-e89b-12d3-a456-426655440000,a string,example.com,a string,a string,AAA,a
+a string,me@example.com,example.com,TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieSB0aGlz,00000000-0000-0000-0000-000000000000,a string,http://example.com,a,a,,
+IHNpbmd1bGFyIHBhc3Npb24gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBhIGx1c3Qgb2Yg,,,,a032e6b9-61ee-4377-b307-3d1b9e9cac96,a string,http://example.com,bb,bb,,
+dGhlIG1pbmQsIHRoYXQgYnkgYSBwZXJzZXZlcmFuY2Ugb2YgZGVsaWdodCBpbiB0aGUgY29udGlu,,,,a654ab52-d0de-11e7-8fab-cec278b6b50a,"a ""quote"".",bbb,ccc,ccc,,
+dWVkIGFuZCBpbmRlZmF0aWdhYmxlIGdlbmVyYXRpb24gb2Yga25vd2xlZGdlLCBleGNlZWRzIHRo,,,,,another 'quote',ccc,ddd d,ddd d,,
+ZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=,123e4567-e89b-12d3-a456-426655440000,a string,example.com,a string,a string,cc,a,,,
 "a long, silly, string",another.me@example.com,www.example.com,cGxlYXN1cmUu,00000000-0000-0000-0000-000000000000,a string,www.example.com,"a long, silly, string","a long, silly, string",aab,b
 "a ""quote"".",another.me@example.con,http://example.com,bGVhc3VyZS4=,a032e6b9-61ee-4377-b307-3d1b9e9cac96,"a ""quote"".",http://example.com,"a ""quote"".","a ""quote"".",aac,c
 another 'quote',me@example,https://example.com,101,a654ab52-d0de-11e7-8fab-cec278b6b50a,another 'quote',https://example.com,another 'quote',another 'quote',abb,d
 me@example.com,,https://ask.example.com,,a654ab5-2d0de-11e7-8fab-cec278b6b50a,me@example.com,https://ask.example.com,me@example.com,me@example.com,acc,e
-http://example.com,,https://example.com/go,,,http://example.com,https://example.com/go,http://example.com,http://example.com,abd,
-1,,https://example.com/go/#readme,,,1,https://example.com/go/#readme,1,1,abc,
--1,,,,,-1,example.com,-1,-1,AbcZ,d
-0,,,,,,www.example.com,0,0,AAZZ,c
-true,,,,,true,http://example.com,true,true,AZ,b
-false,,,,,false,https://example.com,false,false,aZ,a
+http://example.com,,https://example.com/go,,a032e6b9-61ee-4377-b307-3d1b9e9cac96,http://example.com,https://example.com/go,http://example.com,http://example.com,abd,
+1,,https://example.com/go/#readme,,a654ab52-d0de-11e7-8fab-cec278b6b50a,1,https://example.com/go/#readme,1,1,abc,
+-1,,,,a654ab5-2d0de-11e7-8fab-cec278b6b50a,-1,example.com,-1,-1,AbcZ,d
+0,,,,a032e6b9-61ee-4377-b307-3d1b9e9cac95,,www.example.com,0,0,AAZZ,c
+true,,,,a654ab52-d0de-11e7-8fab-cec278b6b50h,true,http://example.com,true,true,AZ,b
+false,,,,a654ab5-2d0de-11e7-8fab-cec278b6b50r,false,https://example.com,false,false,aZ,a

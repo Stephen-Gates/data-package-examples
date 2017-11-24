@@ -53,7 +53,7 @@
         "type": "string",
         "format": "default",
         "constraints": {
-          "minimum": "2"
+          "minimum": "4"
         }
       }, {
         "name": "maxLength",
