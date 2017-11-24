@@ -19,6 +19,22 @@
         "type": "string",
         "format": "default"
       }, {
+        "name": "email",
+        "type": "string",
+        "format": "email"
+      }, {
+        "name": "uri",
+        "type": "string",
+        "format": "uri"
+      }, {
+        "name": "binary",
+        "type": "string",
+        "format": "binary"
+      }, {
+        "name": "uuid",
+        "type": "string",
+        "format": "uuid"
+      }, {
         "name": "required",
         "type": "string",
         "format": "default",
@@ -58,7 +74,7 @@
         "type": "string",
         "format": "default",
         "constraints": {
-          "enum": ["1900","1910","1919","1920"]
+          "enum": ["a","b","c","d"]
         }
       }],
       "missingValues": [""]

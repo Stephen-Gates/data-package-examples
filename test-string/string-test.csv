@@ -1,12 +1,12 @@
-string,email,uri,required,unique,minLength,maxLength,pattern,enum
-a string,me@example.com,example.com,,,a string,example.com,a string,a string,aaa,a
-"a long, silly, string",another.me@example.com,www.example.com,,,"a long, silly, string",www.example.com,"a long, silly, string","a long, silly, string",aab,b
-"a ""quote"".",another.me@example.con,http://example.com,,,"a ""quote"".",http://example.com,"a ""quote"".","a ""quote"".",aac,c
-another 'quote',,https://example.com,,,another 'quote',https://example.com,another 'quote',another 'quote',abb,d
+string,email,uri,binary,uuid,required,unique,minLength,maxLength,pattern,enum
+a string,me@example.com,example.com,0,123e4567-e89b-12d3-a456-426655440000,a string,example.com,a string,a string,AAA,a
+"a long, silly, string",another.me@example.com,www.example.com,01,00000000-0000-0000-0000-000000000000,"a long, silly, string",www.example.com,"a long, silly, string","a long, silly, string",aab,b
+"a ""quote"".",another.me@example.con,http://example.com,012,,"a ""quote"".",http://example.com,"a ""quote"".","a ""quote"".",aac,c
+another 'quote',me@example,https://example.com,101,,another 'quote',https://example.com,another 'quote',another 'quote',abb,d
 me@example.com,,https://ask.example.com,,,me@example.com,https://ask.example.com,me@example.com,me@example.com,acc,e
 http://example.com,,https://example.com/go,,,http://example.com,https://example.com/go,http://example.com,http://example.com,abd,
 1,,https://example.com/go/#readme,,,1,https://example.com/go/#readme,1,1,abc,
--1,,,,,-1,example.com,-1,-1,,
-0,,,,,,www.example.com,0,0,,
-true,,,,,true,http://example.com,true,true,,
-false,,,,,false,https://example.com,false,false,,
+-1,,,,,-1,example.com,-1,-1,ZZZ,
+0,,,,,,www.example.com,0,0,ZZ,
+true,,,,,true,http://example.com,true,true,Z,
+false,,,,,false,https://example.com,false,false,aZ,
