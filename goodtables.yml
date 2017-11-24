@@ -28,7 +28,7 @@ datapackages:
 #  - test-number/datapackage.json
 #  - test-integer/datapackage.json
 #  - test-boolean/datapackage.json
-#  - test-date/datapackage.json
+  - test-date/datapackage.json
   - test-time/datapackage.json
 #  - test-datetime/datapackage.json
 #  - test-year/datapackage.json
