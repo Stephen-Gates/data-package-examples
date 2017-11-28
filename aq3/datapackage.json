@@ -97,6 +97,36 @@
       }],
       "missingValues": [""]
     },
+    "foreignKeys": [
+  {
+    "fields": "RECIPIENT_LOCATION_SA2_NAME_2016",
+    "reference": {
+      "resource": "sa2-2016",
+      "fields": "SA2_NAME_2016"
+    }
+  },
+  {
+    "fields": "RECIPIENT_LOCATION_SA3_NAME_2016",
+    "reference": {
+      "resource": "sa3-2016",
+      "fields": "SA3_NAME_2016"
+    }
+  },
+  {
+    "fields": "RECIPIENT_LOCATION_SA4_NAME_2016",
+    "reference": {
+      "resource": "sa4-2016",
+      "fields": "SA4_NAME_2016"
+    }
+  },
+  {
+    "fields": "RECIPIENT_LOCATION_GCCSA_NAME_2016",
+    "reference": {
+      "resource": "gccsa-2016",
+      "fields": "GCCSA_NAME_2016"
+    }
+  }
+],
     "format": "csv",
     "mediatype": "text/csv",
     "licenses": [{
@@ -238,7 +268,7 @@
     }],
     "format": "csv",
     "mediatype": "text/csv",
-    "primaryKeys": ["SA3_CODE_2016"],    
+    "primaryKeys": ["SA3_CODE_2016"],
     "name": "sa3-2016",
     "title": "Statistical Area Level 3 (SA3) ASGS Edition 2016 in .csv Format ",
     "path": "data/SA3_2016_AUST.csv"
