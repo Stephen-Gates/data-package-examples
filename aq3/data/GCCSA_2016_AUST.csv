@@ -1,0 +1,35 @@
+GCCSA_CODE_2016,GCCSA_NAME_2016,STATE_CODE_2016,STATE_NAME_2016,AREA_ALBERS_SQKM
+1GSYD,Greater Sydney,1,New South Wales,12368.1933
+1RNSW,Rest of NSW,1,New South Wales,788442.589
+2RVIC,Rest of Vic.,2,Victoria,217503.1186
+2GMEL,Greater Melbourne,2,Victoria,9992.5118
+3GBRI,Greater Brisbane,3,Queensland,15841.9603
+3RQLD,Rest of Qld,3,Queensland,1714330.123
+4RSAU,Rest of SA,4,South Australia,981015.0721
+4GADE,Greater Adelaide,4,South Australia,3259.8359
+5RWAU,Rest of WA,5,Western Australia,2520230.0172
+5GPER,Greater Perth,5,Western Australia,6416.2217
+6GHOB,Greater Hobart,6,Tasmania,1695.3585
+6RTAS,Rest of Tas.,6,Tasmania,66322.5022
+7GDAR,Greater Darwin,7,Northern Territory,3163.9057
+7RNTE,Rest of NT,7,Northern Territory,1344930.4224
+8ACTE,Australian Capital Territory,8,Australian Capital Territory,2358.172
+9OTER,Other Territories,9,Other Territories,256.3162
+19499,No usual address (NSW),1,New South Wales,0
+19799,Migratory - Offshore - Shipping (NSW),1,New South Wales,0
+29499,No usual address (Vic.),2,Victoria,0
+29799,Migratory - Offshore - Shipping (Vic.),2,Victoria,0
+39499,No usual address (Qld),3,Queensland,0
+39799,Migratory - Offshore - Shipping (Qld),3,Queensland,0
+49499,No usual address (SA),4,South Australia,0
+49799,Migratory - Offshore - Shipping (SA),4,South Australia,0
+59499,No usual address (WA),5,Western Australia,0
+59799,Migratory - Offshore - Shipping (WA),5,Western Australia,0
+69499,No usual address (Tas.),6,Tasmania,0
+69799,Migratory - Offshore - Shipping (Tas.),6,Tasmania,0
+79499,No usual address (NT),7,Northern Territory,0
+79799,Migratory - Offshore - Shipping (NT),7,Northern Territory,0
+89499,No usual address (ACT),8,Australian Capital Territory,0
+89799,Migratory - Offshore - Shipping (ACT),8,Australian Capital Territory,0
+99499,No usual address (OT),9,Other Territories,0
+99799,Migratory - Offshore - Shipping (OT),9,Other Territories,0

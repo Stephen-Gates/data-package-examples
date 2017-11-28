@@ -1,0 +1,353 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [{
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "name": "PROGRAM",
+        "type": "string",
+        "format": "default",
+        "description": "Name of funding program under the Advance Queensland initiative. Advance Queensland is a comprehensive suite of programs designed to create the knowledge-based jobs of the future.  The programs will drive innovation, build on Queensland's natural advantages, and help raise its profile as an attractive investment destination. The Queensland Government has committed $405 million dollars over 4 years to the Advance Queensland intiatives - www.advance.qld.gov.au",
+        "title": "Program"
+      }, {
+        "name": "RECIPIENT_NAME",
+        "type": "string",
+        "format": "default",
+        "title": "Recipient Name",
+        "description": "Name of the organisation or individual that funding has been committed to."
+      }, {
+        "name": "RECIPIENT_LOCATION_SA2_NAME_2016",
+        "type": "string",
+        "format": "default",
+        "description": "Location of recipient organisation to Australian Bureau of Statistics 2016 Australian Statistical Geography Standard Statistical Area 2 (SA2). When SA2 location information is not avilable, field is blank.",
+        "title": "Recipient Location (SA2 Name 2016)"
+      }, {
+        "name": "RECIPIENT_LOCATION_SA3_NAME_2016",
+        "type": "string",
+        "format": "default",
+        "title": "Recipient Location (SA3 Name 2016)",
+        "description": "Location of recipient organisation to Australian Bureau of Statistics 2016 Australian Statistical Geography Standard Statistical Area 3 (SA3). When SA3 location information is not avilable, field is blank."
+      }, {
+        "name": "RECIPIENT_LOCATION_SA4_Name_2016",
+        "type": "string",
+        "format": "default",
+        "title": "Recipient Location (SA4 Name 2016)",
+        "description": "Location of recipient organisation to Australian Bureau of Statistics 2016 Australian Statistical Geography Standard Statistical Area 4 (SA4). When SA4 location information is not avilable, field is blank."
+      }, {
+        "name": "RECIPIENT_LOCATION_GCCSA_NAME_2016",
+        "type": "string",
+        "format": "default",
+        "description": "Location of recipient organiastion to Australian Bureau of Statistics 2016 Greater Capital City Statistical Areas (GCCSA). All records have location data to GCCSA.",
+        "title": "Recipient Location (Greater Capital City Statistical Area Name 2016)"
+      }, {
+        "name": "PROJECT_TITLE_OUTLINE",
+        "type": "string",
+        "format": "default",
+        "title": "Project Title",
+        "description": "Title or brief description of the project that funding has been committed for."
+      }, {
+        "name": "RESEARCHER_FELLOW",
+        "type": "string",
+        "format": "default",
+        "description": "The following programs involve a nominated reseracher or fellow: Aboriginal and Torres Strait Islander PhD Scholarship, Aboriginal and Torres Strait Islander Research Fellowship, Innovation Partnerships, Research Fellowships and PhD Scholarships. This field is blank for other programs",
+        "title": "Researcher Fellow"
+      }, {
+        "name": "SECTOR",
+        "type": "string",
+        "format": "default",
+        "description": "Sector(s) of the economy that the project will contribute towards. For projects where this is not known, this field is blank.",
+        "title": "Sector"
+      }, {
+        "name": "PARTNER",
+        "type": "string",
+        "format": "default",
+        "description": "Partner(s), University(ies), Collaborator(s), End user(s) or organisation(s) involved in the project. For projects that do not involve a partner, this field is blank",
+        "title": "Partner"
+      }, {
+        "name": "APPROVAL_DATE",
+        "type": "date",
+        "format": "pattern",
+        "title": "Approval Date",
+        "description": "Date that funding was committed to the project. Where approval date is not known, field is blank."
+      }, {
+        "name": "FUNDING_COMMITTED_EXGST",
+        "type": "integer",
+        "format": "default",
+        "title": "Funding Commited ex-GST",
+        "description": "Amount of Funding committed to the project in Australian dollars GST exclusive at approval date. Actual funds released to the recipient may differ."
+      }, {
+        "name": "QLD_SCIENCE_PRIORITY",
+        "type": "string",
+        "format": "default",
+        "description": "Some programs require that the project relates to a Queensland Science Priority. For other projects, field is blank.",
+        "title": "Queensland Science Priority"
+      }, {
+        "name": "PROJECT_TIMEFRAME_MONTH",
+        "type": "integer",
+        "format": "default",
+        "title": "Project Timeframe Month",
+        "description": "The estimated duration of the project in months. For this purpose, a month is 28 days. Projects that are less than a month are represented as a decimal fraction. For projects where the timeframe is not known, field is blank."
+      }, {
+        "name": "ROUND_NUMBER",
+        "type": "integer",
+        "format": "default",
+        "title": "Round Number",
+        "description": "Some funding programs are administered in rounds. For projects that this does not apply, this field is blank. "
+      }],
+      "missingValues": [""]
+    },
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "sources": [{
+      "title": "Committed funding recipients",
+      "path": "https://data.qld.gov.au/dataset/advance-queensland-funding-recipients/resource/0f97b985-f5c7-49d2-8b0a-bc5dfbe070b9",
+      "email": ""
+    }],
+    "name": "commited-funding-recipients",
+    "title": "Committed funding recipients",
+    "description": "Announced recipients of funding from the following Advance Queensland programs as at 16 November 2016: PhD Scholarships, Research Fellowships, Business Development Fund, Hot DesQ, Knowledge Transfer Partnerships, Startup Events and Activities Fund, Young Starters Fund, Ignite Ideas, Business Development Fund, Innovation Partnerships, Create Queensland and Johnson and Johnson Quick-fire challenge.  The dataset incorporates location information from the [Australian Bureau of Statistics 2016 ASGS](http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument). Funding amount refers to funding committed and actual funds released may be different.  The [Queensland Government Investment Portal](https://data.qld.gov.au/dataset/dsiti-queensland-government-investment-portal-qgip) open data provides actual funding expenditure for the previous financial year. This dataset was first created in July 2016 for the GovHack 2016 competition.",
+    "path": "data/aq-committed-recipients-20161116.csv"
+  }, {
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "name": "SA2_MAINCODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "SA2_5DIGITCODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "SA2_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "SA3_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "SA3_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "SA4_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "SA4_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_CODE_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "STATE_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "STATE_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "AREA_ALBERS_SQKM",
+        "type": "number",
+        "format": "default"
+      }],
+      "missingValues": [""]
+    },
+    "format": "csv",
+    "mediatype": "text/csv",
+    "primaryKeys": ["SA2_MAINCODE_2016"],
+    "licenses": [{
+      "id": "CC-BY-2.5",
+      "title": "Creative Commons Attribution 2.5 Australia",
+      "url": "https://creativecommons.org/licenses/by/2.5/au/"
+    }],
+    "sources": [{
+      "title": "Statistical Area Level 2 (SA2) ASGS Edition 2016 in .csv Format ",
+      "path": "http://www.abs.gov.au/AUSSTATS/subscriber.nsf/log?openagent&1270055001_sa2_2016_aust_csv.zip&1270.0.55.001&Data%20Cubes&9F6E4EB4E23B269FCA257FED0013A4F8&0&July%202016&12.07.2016&Latest",
+      "email": ""
+    }],
+    "name": "sa2-2016",
+    "title": "Statistical Area Level 2 (SA2) ASGS Edition 2016 in .csv Format ",
+    "path": "data/SA2_2016_AUST.csv"
+  }, {
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "format": "default",
+        "type": "integer",
+        "name": "SA3_CODE_2016"
+      }, {
+        "name": "SA3_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "SA4_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "SA4_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_CODE_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "STATE_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "STATE_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "AREA_ALBERS_SQKM",
+        "type": "number",
+        "format": "default"
+      }]
+    },
+    "licenses": [{
+      "id": "CC-BY-2.5",
+      "title": "Creative Commons Attribution 2.5 Australia",
+      "url": "https://creativecommons.org/licenses/by/2.5/au/"
+    }],
+    "sources": [{
+      "title": "Statistical Area Level 3 (SA3) ASGS Edition 2016 in .csv Format ",
+      "path": "http://www.abs.gov.au/AUSSTATS/subscriber.nsf/log?openagent&1270055001_sa3_2016_aust_csv.zip&1270.0.55.001&Data%20Cubes&615EF9EE021AD6A3CA257FED0013A555&0&July%202016&12.07.2016&Latest",
+      "email": ""
+    }],
+    "format": "csv",
+    "mediatype": "text/csv",
+    "primaryKeys": ["SA3_CODE_2016"],    
+    "name": "sa3-2016",
+    "title": "Statistical Area Level 3 (SA3) ASGS Edition 2016 in .csv Format ",
+    "path": "data/SA3_2016_AUST.csv"
+  }, {
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "format": "default",
+        "type": "integer",
+        "name": "SA4_CODE_2016"
+      }, {
+        "name": "SA4_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_CODE_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "STATE_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "STATE_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "AREA_ALBERS_SQKM",
+        "type": "number",
+        "format": "default"
+      }]
+    },
+    "licenses": [{
+      "id": "CC-BY-2.5",
+      "title": "Creative Commons Attribution 2.5 Australia",
+      "url": "https://creativecommons.org/licenses/by/2.5/au/"
+    }],
+    "sources": [{
+      "title": "Statistical Area Level 4 (SA4) ASGS Edition 2016 in .csv Format ",
+      "path": "http://www.abs.gov.au/AUSSTATS/subscriber.nsf/log?openagent&1270055001_sa4_2016_aust_csv.zip&1270.0.55.001&Data%20Cubes&BAA10E85013E0996CA257FED0013A580&0&July%202016&12.07.2016&Latest",
+      "email": ""
+    }],
+    "format": "csv",
+    "mediatype": "text/csv",
+    "primaryKeys": ["SA4_CODE_2016"],
+    "name": "sa4-2016",
+    "title": "Statistical Area Level 4 (SA4) ASGS Edition 2016 in .csv Format ",
+    "path": "data/SA4_2016_AUST.csv"
+  }, {
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "name": "GCCSA_CODE_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "GCCSA_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "STATE_CODE_2016",
+        "type": "integer",
+        "format": "default"
+      }, {
+        "name": "STATE_NAME_2016",
+        "type": "string",
+        "format": "default"
+      }, {
+        "name": "AREA_ALBERS_SQKM",
+        "type": "number",
+        "format": "default"
+      }],
+      "missingValues": [""]
+    },
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "sources": [{
+      "title": "Greater Capital City Statistical Area (GCCSA) Edition 2016 in .csv Format ",
+      "path": "http://www.abs.gov.au/AUSSTATS/subscriber.nsf/log?openagent&1270055001_gccsa_2016_aust_csv.zip&1270.0.55.001&Data%20Cubes&4E0B1853ECFC3E57CA257FED0013A5A7&0&July%202016&12.07.2016&Latest",
+      "email": ""
+    }],
+    "format": "csv",
+    "mediatype": "text/csv",
+    "primaryKeys": ["GCCSA_CODE_2016"],
+    "name": "gccsa-2016",
+    "title": "Greater Capital City Statistical Area (GCCSA) Edition 2016 in .csv Format ",
+    "path": "data/GCCSA_2016_AUST.csv"
+  }],
+  "licenses": [{
+    "id": "CC-BY-2.5",
+    "title": "Creative Commons Attribution 2.5 Australia",
+    "url": "https://creativecommons.org/licenses/by/2.5/au/"
+  }],
+  "sources": [{
+    "title": "",
+    "path": "",
+    "email": ""
+  }],
+  "title": "Advance Queensland Funding Recipients",
+  "name": "advance-queensland-funding-recipients",
+  "description": "Announced Advance Queensland funding recipients. Established in July 2015, Advance Queensland is a suite of Queensland Government programs designed to create the knowledge-based jobs of the future.",
+  "version": "1.0.0"
+}

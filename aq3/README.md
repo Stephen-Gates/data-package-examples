@@ -1,0 +1,1 @@
+Announced Advance Queensland funding recipients. Established in July 2015, Advance Queensland is a suite of Queensland Government programs designed to create the knowledge-based jobs of the future.
