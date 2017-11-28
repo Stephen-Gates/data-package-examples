@@ -97,36 +97,35 @@
       }],
       "missingValues": [""]
     },
-    "foreignKeys": [
-  {
-    "fields": "RECIPIENT_LOCATION_SA2_NAME_2016",
-    "reference": {
-      "resource": "sa2-2016",
-      "fields": "SA2_NAME_2016"
-    }
-  },
-  {
-    "fields": "RECIPIENT_LOCATION_SA3_NAME_2016",
-    "reference": {
-      "resource": "sa3-2016",
-      "fields": "SA3_NAME_2016"
-    }
-  },
-  {
-    "fields": "RECIPIENT_LOCATION_SA4_NAME_2016",
-    "reference": {
-      "resource": "sa4-2016",
-      "fields": "SA4_NAME_2016"
-    }
-  },
-  {
-    "fields": "RECIPIENT_LOCATION_GCCSA_NAME_2016",
-    "reference": {
-      "resource": "gccsa-2016",
-      "fields": "GCCSA_NAME_2016"
-    }
-  }
-],
+    "foreignKeys": [{
+        "fields": "RECIPIENT_LOCATION_SA2_NAME_2016",
+        "reference": {
+          "resource": "sa2-2016",
+          "fields": "SA2_NAME_2016"
+        }
+      },
+      {
+        "fields": "RECIPIENT_LOCATION_SA3_NAME_2016",
+        "reference": {
+          "resource": "sa3-2016",
+          "fields": "SA3_NAME_2016"
+        }
+      },
+      {
+        "fields": "RECIPIENT_LOCATION_SA4_NAME_2016",
+        "reference": {
+          "resource": "sa4-2016",
+          "fields": "SA4_NAME_2016"
+        }
+      },
+      {
+        "fields": "RECIPIENT_LOCATION_GCCSA_NAME_2016",
+        "reference": {
+          "resource": "gccsa-2016",
+          "fields": "GCCSA_NAME_2016"
+        }
+      }
+    ],
     "format": "csv",
     "mediatype": "text/csv",
     "licenses": [{
