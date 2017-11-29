@@ -1,6 +1,13 @@
 {
   "name": "boolean-test",
+  "title": "A test for boolean values and contraints",
+  "description": "A description for test data for boolean values and contraints",
   "profile": "tabular-data-package",
+  "licenses": [{
+    "name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
+  }],
   "resources": [{
     "name": "boolean-test",
     "profile": "tabular-data-resource",
