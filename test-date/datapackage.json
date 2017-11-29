@@ -1,6 +1,22 @@
 {
   "name": "date-test",
+  "title": "A test for date values and contraints",
+  "description": "A description for test data for date values and contraints",
+  "sources": [{
+    "title": "Transport and Main Roads"
+  }],
+  contributors: [{
+    "title": "Transport and Main Roads",
+    "email": "stephen.z.gates@tmr.qld.gov.au",
+    "path": "https://www.tmr.qld.gov.au",
+    "role": "author"
+  }],
   "profile": "tabular-data-package",
+  "licenses": [{
+    "name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
+  }],
   "resources": [{
     "name": "date-test",
     "profile": "tabular-data-resource",
@@ -60,7 +76,7 @@
         "type": "date",
         "format": "default",
         "constraints": {
-          "enum": ["2017-12-25","2015-02-29"]
+          "enum": ["2017-12-25", "2015-02-29"]
         }
       }],
       "missingValues": [""]
