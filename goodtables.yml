@@ -15,8 +15,8 @@
 #
 datapackages:
 #  - aq3/datapackage.json
-  - australian-open-data-portals/datapackage.json
-#  - one-csv-file/datapackage.json
+#  - australian-open-data-portals/datapackage.json
+  - one-csv-file/datapackage.json
 #  - one-csv-geopoint-array/datapackage.json
 #  - one-csv-geopoint-default/datapackage.json
 #  - one-csv-geopoint-object/datapackage.json
