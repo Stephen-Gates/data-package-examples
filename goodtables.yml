@@ -14,8 +14,8 @@
 # validate datapackages that reference csv files
 #
 datapackages:
-  - aq3/datapackage.json
-#  - australian-open-data-portals/datapackage.json
+#  - aq3/datapackage.json
+  - australian-open-data-portals/datapackage.json
 #  - one-csv-file/datapackage.json
 #  - one-csv-geopoint-array/datapackage.json
 #  - one-csv-geopoint-default/datapackage.json
@@ -35,5 +35,5 @@ datapackages:
 #  - test-year/datapackage.json
 #  - test-yearmonth/datapackage.json
 #  - test-duration/datapackage.json
-  - test-geopoint/datapackage.json
+#  - test-geopoint/datapackage.json
 #  - test-geojson/datapackage.json
