@@ -45,21 +45,21 @@
         "type": "time",
         "format": "default",
         "constraints": {
-          "minimum": "11:59"
+          "minimum": "11:59:00"
         }
       }, {
         "name": "maximum",
         "type": "time",
         "format": "default",
         "constraints": {
-          "maximum": "14:30"
+          "maximum": "14:30:30"
         }
       }, {
         "name": "enum",
         "type": "time",
         "format": "default",
         "constraints": {
-          "enum": ["06:00","12:00","18:00","00:00"]
+          "enum": ["06:00:00","12:00:00","18:00:00","00:00:00"]
         }
       }],
       "missingValues": [""]
