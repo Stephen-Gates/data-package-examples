@@ -16,7 +16,7 @@
 datapackages:
 #  - aq3/datapackage.json
 #  - australian-open-data-portals/datapackage.json
-  - one-csv-file/datapackage.json
+#  - one-csv-file/datapackage.json
 #  - one-csv-geopoint-array/datapackage.json
 #  - one-csv-geopoint-default/datapackage.json
 #  - one-csv-geopoint-object/datapackage.json
@@ -30,7 +30,7 @@ datapackages:
 #  - test-integer/datapackage.json
 #  - test-boolean/datapackage.json
 #  - test-date/datapackage.json
-#  - test-time/datapackage.json
+  - test-time/datapackage.json
 #  - test-datetime/datapackage.json
 #  - test-year/datapackage.json
 #  - test-yearmonth/datapackage.json
