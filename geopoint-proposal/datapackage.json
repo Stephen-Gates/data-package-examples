@@ -1,0 +1,38 @@
+{
+  "name": "geopoint-proposal",
+  "profile": "geopoint-tabular-data-package",
+  "resources": [{
+    "name": "office-locations",
+    "path": "data/lat-lon.csv",
+    "profile": "geopoint-tabular-data-resource",
+    "encoding": "utf-8",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "schema": {
+      "fields": [{
+        "name": "Office",
+        "type": "string"
+      }, {
+        "name": "Lat",
+        "title": "Latitude",
+        "type": "number",
+        "format": "latitude",
+        "constraints": {
+          "required": true,
+          "minimum": "-9",
+          "maximum": "-28"
+        }
+      }, {
+        "name": "Lon",
+        "title": "Longitude",
+        "type": "number",
+        "format": "longitude",
+        "constraints": {
+          "required": true,
+          "minimum": "138",
+          "maximum": "153"
+        }
+      }]
+    }
+  }]
+}
