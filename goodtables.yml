@@ -38,3 +38,7 @@ datapackages:
 #  - test-geopoint/datapackage.json
 #  - test-geojson/datapackage.json
   - cpi/datapackage.json
+  - geo-countries/datapackage.json
+  - gross-domestic-product-2014/datapackage.json
+  - gross-domestic-product-all/datapackage.json
+  - periodic-table/datapackage.json
