@@ -29,8 +29,7 @@
         },
         {
           "name": "Year",
-          "type": "date",
-          "format": "fmt:%Y"
+          "type": "year"
         },
         {
           "name": "CPI",
