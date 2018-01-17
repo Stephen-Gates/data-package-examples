@@ -10,7 +10,6 @@
   }],
   "keywords": ["CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank"],
   "version": "2.0.0",
-  "last_updated": "2014-09-22",
   "sources": [{
     "title": "The World Bank",
     "path": "http://data.worldbank.org/indicator/FP.CPI.TOTL"
