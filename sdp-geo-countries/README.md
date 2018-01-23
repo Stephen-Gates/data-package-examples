@@ -16,8 +16,6 @@ The data is used in the Frictionless Data Guide, [Joining Data](https://friction
 
 The provenance of this data is unknown.
 
-An implementation of the simple vector data proposal made in [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/#line-and-polygon-) with  [`spatial-profile`](https://discuss.okfn.org/t/geo-data-package/6143/26?u=stephen) applied at the resource level.
-
 ## License
 
 In the absence of any known provenance, the data is licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
