@@ -1,5 +1,5 @@
 {
-  "name": "geopoint-proposal",
+  "name": "sdp-point-data",
   "resources": [
     {
       "name": "office-locations",
@@ -20,7 +20,7 @@
           "spatialExtent": {
             "reference": {
               "datapackage": "https://example.com/states/datapackage.json",
-              "resource": "state-boundaries", 
+              "resource": "state-boundaries",
               "field": "state",
               "value": "Queensland"
             }
