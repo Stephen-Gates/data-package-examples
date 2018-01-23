@@ -5,6 +5,7 @@
       "name": "office-locations",
       "path": "data/lat-lon.csv",
       "profile": "tabular-data-resource",
+      "spatial-profile": "tabular-points",
       "encoding": "utf-8",
       "format": "csv",
       "mediatype": "text/csv",
@@ -27,6 +28,7 @@
           {
             "name": "Lat",
             "title": "Latitude",
+            "description": "potential for a new latitude type or number format that constrains values to +/- 90",
             "type": "number",
             "format": "latitude",
             "constraints": {
@@ -38,6 +40,7 @@
           {
             "name": "Lon",
             "title": "Longitude",
+            "description": "potential for a new longitude type or number format that constrains values to +/- 180",
             "type": "number",
             "format": "longitude",
             "constraints": {
@@ -53,6 +56,7 @@
       "name": "office-locations-geojson",
       "description": "a convenience copy of lat-lon.csv in geojson format that is linked to the csv via geojson-path: data/lat-lon.geojson. This prevents the data package having a profile: tabular-data-package",
       "path": "data/lat-lon.geojson",
+      "spatial-profile": "simple-vector",
       "format": "geojson"
     }
   ]
