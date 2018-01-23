@@ -11,6 +11,7 @@
       "mediatype": "text/csv",
       "locations": [
         {
+          "name": "office-location",
           "type": "lat-lon",
           "fields": {
             "latitude": "Lat",
