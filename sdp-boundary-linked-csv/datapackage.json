@@ -1,0 +1,40 @@
+{
+  "name": "country-population",
+  "title": "Country Population",
+  "description": "Example Data Package linking to Official GeoJSON polygon country boundaries",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],
+  "resources": [{
+    "name": "countries",
+    "path": "data/country-populations.csv",
+    "profile": "tabular-data-resource",
+    "spatial-profile": "boundary-id",
+    "locations": {
+      "type": "boundary-id",
+      "field": "Country ISO 3166-1 alpha-3 code",
+      "codelist": "iso-3166-1:alpha-3"
+    },
+    "format": "csv",
+    "mediatype": "application/json",
+    "schema": {
+      "fields": [{
+          "name": "Country ISO 3166-1 alpha-3 code",
+          "type": "string",
+          "constraint": {
+            "minimum": 3,
+            "maximum": 3,
+            "required": true
+          }
+        },
+        {
+          "name": "Population",
+          "type": "number"
+        }
+      ]
+    }
+  }]
+}

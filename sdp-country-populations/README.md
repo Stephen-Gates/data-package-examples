@@ -1,10 +1,9 @@
-Country Boundaries in GeoJSON format.
+Country Population referencing unofficial boundaries using GeoJSON
 
-An attempted implementation of the boundary-linked data proposal made in [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/#preparing-boundary-linked-tabular-data) with exceptions:
+An attempted implementation of the boundary-linked data linking to unofficial boundaries proposal made in [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/#preparing-boundary-linked-tabular-data) with exceptions:
 
 -  [`spatial-profile`](https://discuss.okfn.org/t/geo-data-package/6143/26?u=stephen) applied at the resource level.
--  There is no `spatial-profile` for boundary-id data so added `"spatial-profile": "boundary-id"` so the data resource can be discovered as one containing location information
-- unclear how to link to a geometry that isn't in an official registry of boundaries
+-  There is no `spatial-profile` for `boundary-id` data. Added `"spatial-profile": "boundary-id"` so the data resource can be discovered as one containing location information
 
 ## Data
 
