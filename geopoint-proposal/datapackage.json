@@ -38,8 +38,7 @@
             "name": "Lat",
             "title": "Latitude",
             "description": "potential for a new latitude type or number format that constrains values to +/- 90",
-            "type": "number",
-            "format": "latitude",
+            "type": "latitude",
             "constraints": {
               "required": true,
               "minimum": "-9",
@@ -50,8 +49,7 @@
             "name": "Lon",
             "title": "Longitude",
             "description": "potential for a new longitude type or number format that constrains values to +/- 180",
-            "type": "number",
-            "format": "longitude",
+            "type": "longitude",
             "constraints": {
               "required": true,
               "minimum": "138",
