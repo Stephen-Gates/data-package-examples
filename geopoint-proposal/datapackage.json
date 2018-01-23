@@ -1,38 +1,59 @@
 {
   "name": "geopoint-proposal",
-  "profile": "geopoint-tabular-data-package",
-  "resources": [{
-    "name": "office-locations",
-    "path": "data/lat-lon.csv",
-    "profile": "geopoint-tabular-data-resource",
-    "encoding": "utf-8",
-    "format": "csv",
-    "mediatype": "text/csv",
-    "schema": {
-      "fields": [{
-        "name": "Office",
-        "type": "string"
-      }, {
-        "name": "Lat",
-        "title": "Latitude",
-        "type": "number",
-        "format": "latitude",
-        "constraints": {
-          "required": true,
-          "minimum": "-9",
-          "maximum": "-28"
+  "resources": [
+    {
+      "name": "office-locations",
+      "path": "data/lat-lon.csv",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "locations": [
+        {
+          "type": "lat-lon",
+          "fields": {
+            "latitude": "Lat",
+            "longitude": "Lon"
+          },
+          "geojson-path": "data/lat-lon.geojson"
         }
-      }, {
-        "name": "Lon",
-        "title": "Longitude",
-        "type": "number",
-        "format": "longitude",
-        "constraints": {
-          "required": true,
-          "minimum": "138",
-          "maximum": "153"
-        }
-      }]
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "Office",
+            "type": "string"
+          },
+          {
+            "name": "Lat",
+            "title": "Latitude",
+            "type": "number",
+            "format": "latitude",
+            "constraints": {
+              "required": true,
+              "minimum": "-9",
+              "maximum": "-28"
+            }
+          },
+          {
+            "name": "Lon",
+            "title": "Longitude",
+            "type": "number",
+            "format": "longitude",
+            "constraints": {
+              "required": true,
+              "minimum": "138",
+              "maximum": "153"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "office-locations-geojson",
+      "description": "a convenience copy of lat-lon.csv in geojson format that is linked to the csv via geojson-path: data/lat-lon.geojson. This prevents the data package having a profile: tabular-data-package",
+      "path": "data/lat-lon.geojson",
+      "format": "geojson"
     }
-  }]
+  ]
 }
