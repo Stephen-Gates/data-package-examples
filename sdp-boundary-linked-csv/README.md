@@ -4,7 +4,6 @@ An attempted implementation of the boundary-linked data proposal made in [Spatia
 
 -  [`spatial-profile`](https://discuss.okfn.org/t/geo-data-package/6143/26?u=stephen) applied at the resource level.
 -  There is no `spatial-profile` for boundary-id data so added `"spatial-profile": "boundary-id"` so the data resource can be discovered as one containing location information
-- unclear how to link to a geometry that isn't in an official registry of boundaries
 
 Note there is no service to resolve the location of the boundary data using `"codelist": "iso-3166-1:alpha-3"`.
 
