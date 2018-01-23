@@ -1,0 +1,35 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2660,-27.1944 ]
+    },
+    "properties": {
+    "Office":"Dalby"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.833333,-26.533333 ]
+    },
+    "properties": {
+    "Office":"Kingaroy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.95,-27.566667 ]
+    },
+    "properties": {
+    "Office":"Toowoomba"
+    }
+  }
+]
+}
