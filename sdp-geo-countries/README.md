@@ -10,8 +10,6 @@ This GeoJSON file contains for each country:
 - an `ADMIN` property that is the common name of the country
 - the `ISO_A3` property that is a 3 character code for the country, according to [ISO3166 standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 
-The data is used in the Frictionless Data Guide, [Joining Data](https://frictionlessdata.io/guides/joining-data-in-python/).
-
 ## Preparation
 
 The provenance of this data is unknown.

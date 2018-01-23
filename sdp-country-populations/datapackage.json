@@ -1,0 +1,51 @@
+{
+  "name": "country-population",
+  "title": "Country Population",
+  "description": "Example Data Package linking to unofficial GeoJSON polygon country boundaries",
+  "profile": "tabular-data-package",
+  "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }],
+  "resources": [{
+    "name": "countries",
+    "path": "data/country-populations.csv",
+    "profile": "tabular-data-resource",
+
+// There isn't a spatial-profile type of boundary-id in the recommendations
+
+    "spatial-profile": "boundary-id",
+    "locations": {
+      "type": "boundary-id",
+      "field": "Country",
+
+// Not sure geometrypath is sufficient to link boundary id to property in GeoJSON
+
+      "geometrypath" : "https://raw.githubusercontent.com/Stephen-Gates/data-package-examples/master/sdp-geo-countries/datapackage.json   OR    https://github.com/Stephen-Gates/data-package-examples/raw/master/sdp-geo-countries/data/countries.geojson",
+
+// How do I link the CSV field name to the GeoJSON field name?
+//     perhaps instead of geometrypath...
+
+      "reference": {
+        "datapackage":"https://raw.githubusercontent.com/Stephen-Gates/data-package-examples/master/sdp-geo-countries/datapackage.json",
+        "resource": "countries",
+        "field": "ISO_A3"
+      }
+
+    },
+    "format": "csv",
+    "mediatype": "application/json",
+    "schema": {
+      "fields": [{
+          "name": "Country",
+          "type": "string"
+        },
+        {
+          "name": "Population",
+          "type": "number"
+        }
+      ]
+    }
+  }]
+}
