@@ -17,6 +17,13 @@
             "latitude": "Lat",
             "longitude": "Lon"
           },
+          "spatialExtent": {
+            "reference": {
+              "path": "https://example.com/states/state-boundaries.geojson",
+              "field": "state",
+              "value": "Queensland"
+            }
+          },
           "geojson-path": "data/lat-lon.geojson"
         }
       ],
