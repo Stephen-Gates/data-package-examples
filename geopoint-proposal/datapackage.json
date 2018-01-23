@@ -19,7 +19,8 @@
           },
           "spatialExtent": {
             "reference": {
-              "path": "https://example.com/states/state-boundaries.geojson",
+              "datapackage": "https://example.com/states/datapackage.json",
+              "resource": "state-boundaries", 
               "field": "state",
               "value": "Queensland"
             }
