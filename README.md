@@ -56,3 +56,7 @@ On your computer:
 $ cd my-data-package-directory
 $ data push
 ```
+
+## Issues and requests
+
+[Report a bug](/issues/new?template=bugs.md&labels=bug) or [Request a new feature](/issues/new?template=feature-request.md&labels=enhancement)
