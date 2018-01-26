@@ -59,4 +59,4 @@ $ data push
 
 ## Issues and requests
 
-[Report a bug](https://github.com/Stephen-Gates/data-package-examples/issues/new?template=bugs.md&labels=bug) or [Request a new feature](https://github.com/Stephen-Gates/data-package-examples/issues/new?template=feature-request.md&labels=enhancement&milestone=1)
+[Report a bug](https://github.com/Stephen-Gates/data-package-examples/issues/new?template=bugs.md&labels=bug) or [Request a new feature](https://github.com/Stephen-Gates/data-package-examples/issues/new?template=feature-request.md&labels=enhancement&milestone=1&assignee=Stephen-Gates)
