@@ -35,7 +35,7 @@ datapackages:
 #  - test-year/datapackage.json
 #  - test-yearmonth/datapackage.json
 #  - test-duration/datapackage.json
-#  - test-geopoint/datapackage.json
+  - test-geopoint/datapackage.json
 #  - test-geojson/datapackage.json
   - cpi/datapackage.json
   - geo-countries/datapackage.json
