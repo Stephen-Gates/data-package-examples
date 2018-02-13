@@ -1,7 +1,10 @@
 {
   "profile": "tabular-data-package",
+  "name": "australian-open-data-portals",
   "resources": [{
     "profile": "tabular-data-resource",
+    "name": "open-data-portals",
+    "path": "data/australian-open-data-portals.tsv",
     "encoding": "utf-8",
     "schema": {
       "fields": [{
@@ -14,32 +17,29 @@
       }, {
         "name": "Organisation",
         "type": "string",
-        "format": "default",
-        "constraints": {}
+        "format": "default"
       }, {
         "name": "Organisation type",
         "type": "string",
-        "format": "default",
-        "constraints": {}
+        "format": "default"
       }, {
         "name": "Portal",
         "type": "string",
-        "format": "default",
-        "constraints": {}
+        "format": "default"
       }, {
         "name": "Region",
         "type": "string",
-        "format": "default",
-        "constraints": {}
+        "format": "default"
       }, {
         "name": "Lat",
         "type": "number",
         "format": "default",
-        "constraints": {}
+        "decimalChar": ","
       }, {
         "name": "Lon",
         "type": "number",
-        "format": "default"
+        "format": "default",
+        "decimalChar": ","
       }],
       "missingValues": [""]
     },
@@ -50,9 +50,11 @@
       "title": "Creative Commons Attribution 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
     }],
-    "name": "open-data-portals",
     "primaryKeys": ["URL"],
-    "path": "data/australian-open-data-portals.tsv"
-  }],
-  "name": "australian-open-data-portals"
+    "dialect": {
+      "delimiter": "\t",
+      "header": true
+      }
+    }
+  ]
 }
