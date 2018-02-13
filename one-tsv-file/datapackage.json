@@ -6,6 +6,13 @@
     "name": "open-data-portals",
     "path": "data/australian-open-data-portals.tsv",
     "encoding": "utf-8",
+    "format": "tsv",
+    "mediatype": "text/tsv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
     "schema": {
       "fields": [{
         "name": "URL",
@@ -43,18 +50,10 @@
       }],
       "missingValues": [""]
     },
-    "format": "tsv",
-    "mediatype": "text/tsv",
-    "licenses": [{
-      "id": "CC-BY-4.0",
-      "title": "Creative Commons Attribution 4.0",
-      "url": "https://creativecommons.org/licenses/by/4.0/"
-    }],
     "primaryKeys": ["URL"],
     "dialect": {
       "delimiter": "\t",
       "header": true
-      }
     }
-  ]
+  }]
 }
