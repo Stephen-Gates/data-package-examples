@@ -1,1 +1,58 @@
-{"profile":"tabular-data-package","resources":[{"profile":"tabular-data-resource","encoding":"utf-8","schema":{"fields":[{"name":"URL","type":"string","format":"uri","constraints":{"required":true}},{"name":"Organisation","type":"string","format":"default","constraints":{}},{"name":"Organisation type","type":"string","format":"default","constraints":{}},{"name":"Portal","type":"string","format":"default","constraints":{}},{"name":"Region","type":"string","format":"default","constraints":{}},{"name":"Lat","type":"number","format":"default","constraints":{}},{"name":"Lon","type":"number","format":"default"}],"missingValues":[""]},"format":"csv","mediatype":"text/csv","licenses":[{"id":"CC-BY-4.0","title":"Creative Commons Attribution 4.0","url":"https://creativecommons.org/licenses/by/4.0/"}],"sources":[{"title":"","path":"","email":""}],"name":"open-data-portals","primaryKeys":["URL"],"path":"data/australian-open-data-portals.tsv"}],"sources":[{"title":"","path":"","email":""}],"name":"australian-open-data-portals"}
+{
+  "profile": "tabular-data-package",
+  "resources": [{
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "name": "URL",
+        "type": "string",
+        "format": "uri",
+        "constraints": {
+          "required": true
+        }
+      }, {
+        "name": "Organisation",
+        "type": "string",
+        "format": "default",
+        "constraints": {}
+      }, {
+        "name": "Organisation type",
+        "type": "string",
+        "format": "default",
+        "constraints": {}
+      }, {
+        "name": "Portal",
+        "type": "string",
+        "format": "default",
+        "constraints": {}
+      }, {
+        "name": "Region",
+        "type": "string",
+        "format": "default",
+        "constraints": {}
+      }, {
+        "name": "Lat",
+        "type": "number",
+        "format": "default",
+        "constraints": {}
+      }, {
+        "name": "Lon",
+        "type": "number",
+        "format": "default"
+      }],
+      "missingValues": [""]
+    },
+    "format": "tsv",
+    "mediatype": "text/tsv",
+    "licenses": [{
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "name": "open-data-portals",
+    "primaryKeys": ["URL"],
+    "path": "data/australian-open-data-portals.tsv"
+  }],
+  "name": "australian-open-data-portals"
+}
