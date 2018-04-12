@@ -1,0 +1,66 @@
+{
+  "fields": [{
+    "name": "string",
+    "type": "string",
+    "format": "default"
+  }, {
+    "name": "email",
+    "type": "string",
+    "format": "email"
+  }, {
+    "name": "uri",
+    "type": "string",
+    "format": "uri"
+  }, {
+    "name": "binary",
+    "type": "string",
+    "format": "binary"
+  }, {
+    "name": "uuid",
+    "type": "string",
+    "format": "uuid"
+  }, {
+    "name": "required",
+    "type": "string",
+    "format": "default",
+    "constraints": {
+      "required": true
+    }
+  }, {
+    "name": "unique",
+    "type": "string",
+    "format": "default",
+    "constraints": {
+      "unique": true
+    }
+  }, {
+    "name": "minLength",
+    "type": "string",
+    "format": "default",
+    "constraints": {
+      "minimum": "4"
+    }
+  }, {
+    "name": "maxLength",
+    "type": "string",
+    "format": "default",
+    "constraints": {
+      "maximum": "10"
+    }
+  }, {
+    "name": "pattern",
+    "type": "string",
+    "format": "default",
+    "constraints": {
+      "pattern": "^A.*Z$"
+    }
+  }, {
+    "name": "enum",
+    "type": "string",
+    "format": "default",
+    "constraints": {
+      "enum": ["a", "b", "c", "d"]
+    }
+  }],
+  "missingValues": [""]
+}
